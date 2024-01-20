@@ -1,0 +1,52 @@
+.project {
+    background: url(../img/bg2.png) no-repeat center/cover;
+    height: 404px;
+}
+
+.project__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+.project__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+}
+
+.project__title {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 67px;
+    color: #fff;
+}
+
+.project__btn {
+    font-family: 'PlayfairDisplay-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+    background: #fff;
+    width: 190px;
+    height: 53px;
+}
+
+.project__btn:hover {
+    background: #41A28E;
+    color: #fff;
+}
+
+.project__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
